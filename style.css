@@ -1,0 +1,112 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(30, 30, 30);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(103, 126, 231);
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+nav {
+    background-color: rgb(96, 95, 95);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-size: 25px;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(96, 95, 95);
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(96, 95, 95);
+    color: black; 
+}
+
+h2 {
+    color: rgb(103, 126, 231);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+table {
+    border: 2px solid rgb(214, 130, 218);
+    width: 1000px;
+    margin: 0 auto;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: center;
+    border-spacing: 2px;
+}
+
+th {
+    border: 1px solid rgb(214, 130, 218);
+    padding: 10px 20px;
+    color: rgb(103, 126, 231);
+    font-size: 20px;
+}
+
+tbody {
+    border: 1px solid rgb(214, 130, 218);
+    color: rgb(103, 126, 231);
+    font-size: 20px;
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+td {
+    border: 1px solid rgb(214, 130, 218);
+    padding: 5px 10px;
+    color: rgb(103, 126, 231);
+    font-size: 18px;
+}
+
+.code {
+    color: black;
+    background-color: rgb(100, 100, 89);
+    font-size: 20px;
+    text-align: center;
+    font-family: monospace;
+}
