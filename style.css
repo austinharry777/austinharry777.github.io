@@ -36,7 +36,10 @@ ul {
     font-size: 25px;
     top: 0;
     width: 100%;
+    cursor: pointer;
+    
 }
+
 
 li {
     float: left;
@@ -48,6 +51,8 @@ li a {
     text-align: center;
     padding: 20px 20px;
     text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
 }
 
 li a:hover {
